@@ -1,0 +1,23 @@
+h1{color:blue}
+section{color:blueviolet}
+p{
+    color: red;
+    text-align: center;
+    
+}
+
+Span{
+    color:yellowgreen;
+}
+
+h1{
+    color:green;
+}
+
+#sp1{
+    color:gold;
+}
+
+.colorOrange{
+    color:orange;
+}
