@@ -1,2 +1,2 @@
-Repositorio para el módulo de L.M.S.G.I.
+Repositorio para el módulo de LMSGI
 ====
