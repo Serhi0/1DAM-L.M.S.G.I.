@@ -1,0 +1,18 @@
+*{
+    font-family:sans-serif;
+    
+}
+a{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    display:inline;
+    padding: 3px;
+}
+a:hover{
+    background-color:rgb(50, 50, 50);
+}
+i{
+
+    margin-right: 1%;
+}
