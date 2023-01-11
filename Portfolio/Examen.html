@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e681abe5a4.js" crossorigin="anonymous"></script>
+    <script>
+    function enviar_mail(){
+      var nombre=dos.nombre.value;
+      var apellido=dos.apellido.value;
+
+      var cadena ='Nombre: '+nombre+'%0D%0A';
+      cadena = cadena + 'Apellidos: '+apellido+'%0D%0A';
+
+      window.location.href = "mailto:serhi0.oficial@gmail.com?suject= Envio de cuestionario&body="+cadena;
+      }
+    </script>
+    <title>PortFolio</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#sobre-mi"><i class="fa-sharp fa-solid fa-medal"></i>Sobre mi</a>
+      <a href="https://github.com/Serhi0"><i class="fa-brands fa-github"></i>Github</a>
+      <a href="#contacto"><i class="fa-solid fa-envelope"></i>Contacto</a>
+    </nav>
+    <header id="cabecera">
+      <h1>PortFolio</h1>
+      <img src="./imagenes/1179072.jpg" alt="primera">
+      <h2>Serhio</h2>
+      <img src="./imagenes/descarga26.png" alt="robot">
+      <br>
+      <blockquote>Sergio</blockquote>
+    </header>
+    <main>
+      <section id="personal">
+        <article id="sobre-mi">
+          <header>
+              <img src="./imagenes/1179072.jpg" alt="Sobre mi">
+              <h2>Sobre mi</h2>
+          </header>
+          <div>
+          <p>Estudiante de aplicaciones multiplataforma</p>
+        </div>
+        </article>
+        <article id="formacion">
+          <header>
+            <h2></h2>
+            <img src="./imagenes/1179072.jpg" alt="">
+          </header>
+        </article>
+      </section>
+      <section id="skills">
+        <article id="hard-skills">
+          <header>
+            <h2>Hard-Skills</h2>
+            <img src="./imagenes/1179072.jpg" alt="hard skills">
+          </header>
+          <div>
+          <ul>
+            <li>Frontend</li>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            <li>Backend</li>
+              <ul>
+                <li>Java</li>
+                <li>PHP</li>
+              </ul>
+          </ul>
+        </div>
+        </article>
+        <article id="soft-skills">
+          <header>
+            <h2>Soft-Skills</h2>
+            <img src="./imagenes/descarga26.png" alt="Soft skills">
+          </header>
+          <div>
+          <ul>
+            <li>Liderazgo</li>
+            <li>Trabajo en equipo</li>
+            <li>Añade tantas como sean necesarias</li>
+          </ul>
+        </div>
+        </article>
+      </section>
+      <section id="contacto">
+        <article id="email">
+          <header>
+            <h2>Enviarme un mensaje</h2>
+            <img src="./imagenes/1179072.jpg" alt="">
+          </header>
+          <div>
+            <form method="get" id="dos">
+                  <form>
+                    Nombre<input type="text" name="nombre"><br/>
+                    apellido<input type="text" name="apellido"><br/>
+                    <button type="submit" name="enviar" onclick="enviar_mail()">Enviar</button>
+                  </form>
+          </div>
+          <!-- Añade un formulario de contacto para enviar via mail -->
+        </article>
+        <article id="social-networks">
+          <header>
+            <h2>Contacto</h2>
+            <img src="./imagenes/1179072.jpg" alt="">
+          </header>
+          <div>
+            <a href="mailto:serhi0.oficial@gmail.com">serhi0.oficial@gmail.com</a> 
+          <hr/>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section id="footer-izq">
+        <span>
+        <i class="fa-brands fa-css3-alt fa-flip darkblue"></i>
+       </span> 
+       <span>
+        <i class="fa-sharp fa-solid fa-robot fa-shake"></i>
+       </span>
+       <span>
+        <i class="fa-brands fa-html5 fa-bounce orange"></i>
+       </span>
+      </section>
+      <section id="footer-centro">
+        <p>Hecho con
+        <span>
+           <i class="fa-sharp fa-solid fa-heart fa-beat red"></i> 
+        </span>
+        en Granada
+      </p>
+      </section>
+      <section id="footer-dcha">
+        <span>
+       <i class="fa-sharp fa-solid fa-copyright fa-spin  white"></i>
+      </span>
+       Sergio &copy;
+      </section>
+    </footer>
+  </body>
+</html>
