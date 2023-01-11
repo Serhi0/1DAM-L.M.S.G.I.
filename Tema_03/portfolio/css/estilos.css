@@ -25,8 +25,9 @@ img{
 
 }
 [alt="robot"]:hover{
-box-shadow:  10px 10px 10px rgb(153, 21, 146), -10px -10px 10px rgb(4, 96, 99);
-transform: rotate(360deg);
+  box-shadow:  10px 10px 10px rgb(153, 21, 146), -10px -10px 10px rgb(4, 96, 99);
+  transform: rotate(360deg);
+  transition: transform 3s;
 }
 div{
   margin-left: auto;
