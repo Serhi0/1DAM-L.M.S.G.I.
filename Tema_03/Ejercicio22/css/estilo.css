@@ -1,6 +1,8 @@
+h1, h2, footer{
+    text-align: center;
+}    
 p{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     border: solid black ;
     width: 33%;
     animation-name: animacion;
