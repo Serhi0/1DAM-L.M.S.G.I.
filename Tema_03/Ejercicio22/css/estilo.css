@@ -1,0 +1,68 @@
+p{
+/*left:30px;
+top:30px;
+position:relative;
+border-radius: 20px; 
+background-color:#ddd;
+width:100px;
+height:100px;
+padding:4px;
+-moz-animation-name: animacion1;
+-moz-animation-duration: 4s;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-name: animacion1;
+-webkit-animation-duration: 4s;
+-webkit-animation-iteration-count: infinite;
+-o-animation-name: animacion1;
+-o-animation-duration: 4s;
+-o-animation-iteration-count: infinite;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black ;
+    width: 33%;
+    animation-name: animacion;
+    animation-play-state: paused;
+    animation-duration: 4s;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate;
+}
+p:hover{
+    animation-play-state: running;
+}
+@keyframes animacion{
+    from{
+        translate: -100px ;
+    }to{
+        translate: 100px;
+    }
+}
+/*@keyframes animacion1{ 
+    0%{
+    left:30px; top:30px;
+    }20%{
+    left:300px; top:30px;
+    }40%{
+    left:300px; top:200px;
+    }60%{
+    left:30px; top:200px;
+    }80%{
+    left:30px;
+    top:30px;
+    }100%{
+    background-color: black;    
+    }
+    }
+*/
+/*img{
+    margin-right: auto;
+    animation-name: animacion;
+    animation-play-state: paused;
+    animation-duration: 4s;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate;
+}
+img:hover{
+    animation-play-state: running;
+}
+*/
