@@ -1,7 +1,11 @@
+body{
+    background-color: cadetblue;
+}
 h1, h2, footer{
     text-align: center;
 }    
 p{
+    background-color: burlywood;
     margin: 0 auto;
     border: solid black ;
     width: 33%;
